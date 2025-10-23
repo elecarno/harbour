@@ -1,0 +1,11 @@
+[
+  { "name": "Deyusia",     "type": "continent",    "x": 4650,     "y": 1880 },
+  { "name": "Drakia",     "type": "continent",    "x": 940,     "y": 3600 },
+  { "name": "Trachsye",     "type": "continent",    "x": 4100,     "y": 4200 },
+  { "name": "Novirsa",     "type": "continent",    "x": 7540,     "y": 3500 },
+
+  { "name": "Tharsis Ocean",     "type": "ocean",    "x": 2570,     "y": 2530 },
+  { "name": "Sirenna Ocean",     "type": "ocean",    "x": 2030,     "y": 5810 },
+  { "name": "Sirenna Ocean",     "type": "ocean",    "x": 8060,     "y": 5810 },
+  { "name": "Solari Ocean",     "type": "ocean",    "x": 7710,     "y": 1060 }
+]
