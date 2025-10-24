@@ -1,0 +1,58 @@
+html {
+  background-color: #dad0b0;
+  font-family: "Lora", serif;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.con-main {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+
+/* .lbl-numeral {
+  font-weight: bold;
+} */
+
+.con-subheaders {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: stretch;
+}
+.con-subheaders p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 100%;
+}
+
+.lbl-title {
+  text-align: center;
+}
+
+.lbl-header {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  width: 100%;
+  font-size: 44px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.con-article-content {
+  text-align: justify;
+  text-indent: 2em;
+}
+
+.img-article {
+  width: 750px;
+  height: 500px;
+
+  border: 2px #333 solid;
+  float: right;
+  margin-left: 12px;
+}
