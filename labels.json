@@ -28,7 +28,7 @@
 
   { "name": "Kovaland",     "type": "region",    "x": 6205,     "y": 2835 },
   { "name": "Alva",     "type": "region",    "x": 7105,     "y": 2200 },
-  { "name": "Solar Island",     "type": "region",    "x": 5685,     "y": 1690 },
+  { "name": "Solar Islands",     "type": "region",    "x": 5685,     "y": 1690 },
   { "name": "Alteria",     "type": "region",    "x": 4875,     "y": 1345 },
   { "name": "The Deyusians",     "type": "region",    "x": 3980,     "y": 1445 },
   { "name": "Miterra",     "type": "region",    "x": 4655,     "y": 2105 },

@@ -18,19 +18,25 @@ function addRepeatedImage(url, copies = 3, opacity = 1.0) {
     const offsetBounds = [[0, i * width], [height, (i + 1) * width]];
     group.addLayer(L.imageOverlay(url, offsetBounds, { opacity }));
   }
-  group.addTo(map);
   return group;
 }
 
 // --- Add base map and overlay ---
-const baseImages = addRepeatedImage('emg2_base.png', 3, 1.0);
-const overlayImages = addRepeatedImage('emg2_countries.png', 3, 1.0);
+const baseImages = addRepeatedImage('emg2_base.png', 3, 1.0).addTo(map);
+const overlayCountries = addRepeatedImage('emg2_countries.png', 3, 1.0).addTo(map);
+const overlayRegions = addRepeatedImage('emg2_regions.png', 3, 1.0);
+const overlayStates = addRepeatedImage('emg2_states.png', 3, 1.0);
 
 // Fit map to original bounds
 map.fitBounds(originalBounds);
+map.setZoom(-1.5);
 
 // Layer control for overlay
-const overlayMaps = { "Show Countries": overlayImages };
+const overlayMaps = { 
+  "Show Countries": overlayCountries,
+  "Show Regions": overlayRegions,
+  "Show Sub-Regions": overlayStates
+};
 L.control.layers(null, overlayMaps, { collapsed: false }).addTo(map);
 
 // --- Helper: Add repeated labels for infinite scrolling ---
