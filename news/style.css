@@ -13,46 +13,24 @@ h2 {
   margin: 0 auto;
 }
 
-
-/* .lbl-numeral {
-  font-weight: bold;
+/* .con-nav {
+  position: absolute;
+  top: 0;
+  width: 1024px;
 } */
-
-.con-subheaders {
-  display: flex;
-  flex-direction: row;
-  justify-content: stretch;
-  align-items: stretch;
-}
-.con-subheaders p {
-  margin-top: 2px;
-  margin-bottom: 2px;
-  width: 100%;
-}
 
 .lbl-title {
   text-align: center;
 }
 
-.lbl-header {
-  font-family: "Playfair Display", serif;
-  text-align: center;
+.con-nav-links {
+  display: flex;
+  flex-direction: row;
+}
+.con-nav-links a {
+  color: black;
   width: 100%;
-  font-size: 44px;
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-
-.con-article-content {
-  text-align: justify;
-  text-indent: 2em;
-}
-
-.img-article {
-  width: 750px;
-  height: 500px;
-
-  border: 2px #333 solid;
-  float: right;
-  margin-left: 12px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
 }
