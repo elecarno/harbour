@@ -56,3 +56,23 @@ h2 {
   float: right;
   margin-left: 12px;
 }
+
+@media (orientation: portrait) {
+  .lbl-header {
+    font-size: 72px;
+  }
+
+  .img-article {
+    float: none;
+    width: 85%;
+    height: auto;
+    margin-bottom: 32px;
+  }
+
+  .con-article-content {
+    padding-left: 24px;
+    padding-right: 24px;
+
+    font-size: 36px;
+  }
+}

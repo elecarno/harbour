@@ -3,34 +3,66 @@ html {
   font-family: "Lora", serif;
 }
 
-h2 {
-  font-size: 36px;
-  font-family: "Cormorant Garamond", serif;
+p {
+  text-align: justify;
 }
 
-.con-main {
-  width: 1024px;
-  margin: 0 auto;
+@media (orientation: landscape) {
+  h2 {
+    font-size: 36px;
+    font-family: "Cormorant Garamond", serif;
+  }
+
+  .con-main {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+  .lbl-title {
+    text-align: left;
+  }
+
+  .con-nav-links {
+    display: flex;
+    flex-direction: row;
+  }
+  .con-nav-links a {
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+  }
 }
 
-/* .con-nav {
-  position: absolute;
-  top: 0;
-  width: 1024px;
-} */
+@media (orientation: portrait) {
+  h2 {
+    font-size: 72px;
+    font-family: "Cormorant Garamond", serif;
+  }
 
-.lbl-title {
-  text-align: left;
-}
+  p, li {
+    font-size: 32px;
+  }
 
-.con-nav-links {
-  display: flex;
-  flex-direction: row;
-}
-.con-nav-links a {
-  color: black;
-  width: 100%;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none;
+  .con-main {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .lbl-title {
+    text-align: left;
+  }
+
+  .con-nav-links {
+    display: flex;
+    flex-direction: row;
+  }
+  .con-nav-links a {
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+  }
 }
