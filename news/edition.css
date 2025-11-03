@@ -57,9 +57,22 @@ h2 {
   margin-left: 12px;
 }
 
+.con-article.secondary {
+  margin-top: 48px;
+}
+
+.lbl-header.secondary {
+  font-size: 24px;
+  text-align: left;
+}
+
 @media (orientation: portrait) {
   .lbl-header {
     font-size: 72px;
+  }
+
+  .lbl-header.secondary {
+    font-size: 48px;
   }
 
   .img-article {
