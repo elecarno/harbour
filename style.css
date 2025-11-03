@@ -1,71 +1,98 @@
-html, body, #map {
-  height: 100%;
-  margin: 0;
-  background: #000;
-}
-.leaflet-tooltip {
-  background: rgba(20,20,20,0.8);
-  color: #fff;
-  border: none;
-  font-size: 12px;
-  padding: 2px 5px;
+html {
+  background-color: #000506;
+  color: #eee;
+  font-family: "Lora", serif;
 }
 
-.map-label {
-  font-family: 'Cinzel', serif;
-  color: #ffffffcc;
-  font-size: 20px;
-  text-shadow: 1px 1px 2px #000;
-  pointer-events: none;
-  white-space: nowrap;
+h2 {
+  font-size: 36px;
+  font-family: "Cormorant Garamond", serif;
 }
 
+.con-main {
+  /* max-width: 512px; */
+  min-width: 512px;
+  margin: 0 auto;
+  text-align: center;
+  height: 90vh;
 
-.map-label.superpower { 
-  color: #202020; 
-  font-size: 18px;
-  font-weight: bold;
-  text-shadow: none;
-  font-style: italic;
-}
-.map-label.player { 
-  color: #202020; 
-  font-size: 16px;
-  font-weight: bold;
-  text-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.map-label.continent { 
-  color: #f2f2f2; 
-  font-size: 28px;
-  letter-spacing: 0.3em;
-}
-.map-label.region { 
-  color: #f2f2f2; 
-  font-size: 18px;
-  letter-spacing: 0.2em;
-}
-.map-label.ocean { 
-  color: #a8d0ff; 
-  font-size: 24px; 
-  font-style: italic; 
-}
-.map-label.sea { 
-  color: #a8d0ff; 
-  font-size: 18px; 
-  font-style: italic; 
-}
-.map-label.mountain { 
-  color: #ffd580; 
-  font-size: 16px; 
-}
-.map-label.island { 
-  color: #bebebe; 
-  font-size: 14px; 
-  /* font-style: italic;  */
+@media (orientation: landscape) {
+  .img-title {
+    width: 320px;
+  }
+
+  .lbl-title {
+    text-align: center;
+  }
+
+  .con-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .btn-nav {
+    font-size: 18px;
+    padding-top: 16px;
+    font-family: "Lora", serif;
+    width: 375px;
+    height: 40px;
+    border-radius: 12px;
+    border: #eee solid 2px;
+    background-color: transparent;
+    color: #eee;
+    transition: 0.25s;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+  }
+  .btn-nav:hover {
+    cursor: pointer;
+    background-color: rgba(85, 85, 85, 0.5);
+    font-size: 20px;
+  }
 }
 
-.leaflet-image-layer {
-  image-rendering: pixelated;
-  image-rendering: crisp-edges; /* fallback for some browsers */
+@media (orientation: portrait) {
+  .img-title {
+    width: 80%
+  }
+
+  .lbl-title {
+    text-align: center;
+    font-size: 72px;
+  }
+
+  .con-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .btn-nav {
+    font-size: 38px;
+    padding-top: 16px;
+    font-family: "Lora", serif;
+    width: 90%;
+    height: 64px;
+    border-radius: 12px;
+    border: #eee solid 2px;
+    background-color: transparent;
+    color: #eee;
+    transition: 0.25s;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+  }
 }

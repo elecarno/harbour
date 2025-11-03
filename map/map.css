@@ -1,0 +1,71 @@
+html, body, #map {
+  height: 100%;
+  margin: 0;
+  background: #000;
+}
+.leaflet-tooltip {
+  background: rgba(20,20,20,0.8);
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  padding: 2px 5px;
+}
+
+.map-label {
+  font-family: 'Cinzel', serif;
+  color: #ffffffcc;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px #000;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+
+.map-label.superpower { 
+  color: #202020; 
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: none;
+  font-style: italic;
+}
+.map-label.player { 
+  color: #202020; 
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.map-label.continent { 
+  color: #f2f2f2; 
+  font-size: 28px;
+  letter-spacing: 0.3em;
+}
+.map-label.region { 
+  color: #f2f2f2; 
+  font-size: 18px;
+  letter-spacing: 0.2em;
+}
+.map-label.ocean { 
+  color: #a8d0ff; 
+  font-size: 24px; 
+  font-style: italic; 
+}
+.map-label.sea { 
+  color: #a8d0ff; 
+  font-size: 18px; 
+  font-style: italic; 
+}
+.map-label.mountain { 
+  color: #ffd580; 
+  font-size: 16px; 
+}
+.map-label.island { 
+  color: #bebebe; 
+  font-size: 14px; 
+  /* font-style: italic;  */
+}
+
+.leaflet-image-layer {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges; /* fallback for some browsers */
+}

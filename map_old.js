@@ -22,10 +22,10 @@ function addRepeatedImage(url, copies = 3, opacity = 1.0) {
 }
 
 // --- Add base map and overlay ---
-const baseImages = addRepeatedImage('emg2_base.png', 3, 1.0).addTo(map);
-const overlayCountries = addRepeatedImage('emg2_countries.png', 3, 1.0).addTo(map);
-const overlayRegions = addRepeatedImage('emg2_regions.png', 3, 1.0);
-const overlayStates = addRepeatedImage('emg2_states.png', 3, 1.0);
+const baseImages = addRepeatedImage('emg4_base.png', 3, 1.0).addTo(map);
+const overlayCountries = addRepeatedImage('emg4_countries.png', 3, 1.0).addTo(map);
+const overlayRegions = addRepeatedImage('emg4_regions.png', 3, 1.0);
+const overlayStates = addRepeatedImage('emg4_states.png', 3, 1.0);
 
 // Fit map to original bounds
 map.fitBounds(originalBounds);
