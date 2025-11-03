@@ -1,0 +1,36 @@
+html {
+  background-color: #dad0b0;
+  font-family: "Lora", serif;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.con-main {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* .con-nav {
+  position: absolute;
+  top: 0;
+  width: 1024px;
+} */
+
+.lbl-title {
+  text-align: left;
+}
+
+.con-nav-links {
+  display: flex;
+  flex-direction: row;
+}
+.con-nav-links a {
+  color: black;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
