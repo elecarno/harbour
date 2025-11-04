@@ -1,0 +1,53 @@
+html {
+  background-color: #000506;
+  color: #eee;
+  font-family: "Lora", serif;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.con-main {
+  max-width: 850px;
+  min-width: 512px;
+  margin: 0 auto;
+  text-align: left;
+  /* height: 90vh; */
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+
+  padding: 32px;
+}
+
+.img-title {
+  width: 320px;
+}
+
+.con-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+h3 {
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0;
+}
+
+.con-section{
+  display: flex;
+  flex-direction: row;
+}
+.con-section h3 {
+  height: 100%;
+  margin: 0;
+  font-size: 24px;
+}
