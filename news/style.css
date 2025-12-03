@@ -66,6 +66,10 @@ html {
     /* text-decoration: none; */
     color: black;
   }
+
+  .con-edition-content.iq{
+    width: 100%;
+  }
 }
 
 
