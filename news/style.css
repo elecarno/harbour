@@ -53,6 +53,10 @@ html {
   .con-edition-content {
     margin-left: 24px;
   }
+  .con-edition-content-iq{
+    margin-left: 24px;
+    width: 100%;
+  }
   .con-edition-content h2{
     font-family: "Playfair Display", serif;
     font-size: 32px;
@@ -66,10 +70,6 @@ html {
     /* text-decoration: none; */
     color: black;
   }
-}
-
-.con-edition-content.iq{
-  width: 100%;
 }
 
 @media (orientation: portrait) {
@@ -124,6 +124,10 @@ html {
   .con-edition-content {
     width: 85%;
     /* margin-left: 24px; */
+  }
+  .con-edition-content-iq{
+    /* margin-left: 24px; */
+    width: 90%;
   }
   .con-edition-content h2{
     font-family: "Playfair Display", serif;
