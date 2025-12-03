@@ -66,12 +66,11 @@ html {
     /* text-decoration: none; */
     color: black;
   }
-
-  .con-edition-content.iq{
-    width: 100%;
-  }
 }
 
+.con-edition-content.iq{
+  width: 100%;
+}
 
 @media (orientation: portrait) {
   h2 {
